@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Redressed&display=swap');
+
+/* FONTS */
+.redressed {
+    font-family: 'Redressed', cursive;
+}
+.merriweather {
+    font-family: 'Merriweather', serif;
+}
+
+/* NAVBAR */
+.mdj-navbar {
+    background-color: rgba(0, 0, 0, 0.55);
+    font-family: 'Merriweather', serif;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+}
+.mdj-navbar .nav-link {
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom .4s ease-in-out, border-color .3s ease;
+}
+.mdj-navbar .nav-link:hover {
+    padding-bottom: 15px;
+    border-bottom-color: var(--bs-teal);
+}
+.btn-order {
+    color: var(--bs-teal);
+    border-color: var(--bs-teal);
+    transition: .5s;
+}
+.btn-order:hover,
+.btn-order:active {
+    color: #fff;
+    background-color: var(--bs-teal);
+}
+
+/* BANNER */
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/banniere2.jpg) center center fixed no-repeat;
+    background-size: cover;
+    height: 918px;
+}
+.banner .banner-desc {
+    font-size: 48px;
+    font-weight: 400;
+    color: #fff;
+}
